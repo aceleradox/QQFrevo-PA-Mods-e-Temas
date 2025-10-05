@@ -1,0 +1,30 @@
+.embed-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #833ab4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.embed-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.embed-card {
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.embed-card h4 {
+  margin-bottom: 8px;
+  color: #f0f0f0;
+}
