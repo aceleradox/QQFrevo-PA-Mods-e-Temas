@@ -1,11 +1,22 @@
-Exibe seus perfis favoritos em lista com o @ da página como hyperlink. Inclui botão Share para copiar o link ou abrir no Instagram.
+O Bookmark Mod organiza seus perfis favoritos do QQFrevo Progressive Autonomy em uma lista interativa. Cada perfil exibe o @ como hyperlink e possui um botão Share, permitindo copiar o link ou abrir direto no Instagram. Mantém compatibilidade com outros mods e filtra perfis inválidos automaticamente.
 
 Como usar:
 
-Coloque os arquivos bookmark.js e bookmark.css dentro da pasta mods/bookmark.
+Crie a pasta: mods/bookmark
 
-Adicione "bookmark" em config.json na lista activeMods.
+Coloque os arquivos bookmark.js e bookmark.css dentro dela.
 
-Reinicie o servidor (node qqfrevo.js).
+Adicione "bookmark" em config.json na lista activeMods:
+{ "activeMods": ["autonomy", "corrector-lab", "bookmark"] }
 
-Abra a aba de favoritos no app para ver os perfis com @ e botão de compartilhar.
+Reinicie o servidor com: node qqfrevo.js
+
+Abra a aba de favoritos no app para visualizar a lista com @ e botão Share.
+
+Observações:
+
+Compatível com outros mods e tema do QQFrevo.
+
+Perfis inválidos são automaticamente filtrados pelo mod Corrector-Lab.
+
+Facilita navegação e compartilhamento rápido de perfis favoritos.
